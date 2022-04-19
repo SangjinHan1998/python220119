@@ -1,0 +1,52 @@
+★tuple
+*sequence data type
+수정, 추가, 삭제 불가능한 리스트 --> 읽기 전용 리스트
+Cannot edit, add, delete  --> only read list
+메모리 사용이 효율적
+effective use of memory
+읽기만 가능하기 때문에 데이터 손실 염려가 없다. 
+we don't care about "data loss". Because of only possible "read" mode.
+
+
+How to make tuple??
+1. tuple = (data1, data2, data3)
+2. tuple = data1, data2, data3 (Can skip brackets)
+() function
+[] justify list
+{} f-string, dictionary
+
+- Natually become skilled. Don't worry about this.
+
+a = (30,)
+if you want to have one data tuple, Insert comma.
+
+★Dictionary
+*sequence data type
+Dictionary data type having key and data
+easy to make dictionary data
+
+What is dictionary data??
+dict = {key1: data1, key2: data2}
+
+*approach dictionary
+dict["key1"] --> print data1
+
+assign dictionary
+dictionary["key1"] = data1
+
+delete dictionary 
+del dictionary["key1"]
+
+dictionary function 
+stock = {
+    "a" : 1,
+    "b" : 33,
+    "c" : 12,
+    "d" : 4
+    
+}
+
+stock.items()   key and data pairs
+stock.keys()    keys
+stock.values    values
+
